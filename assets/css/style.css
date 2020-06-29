@@ -390,9 +390,10 @@ a:hover {
 
 /*------/ Button /------*/
 
-body {
-	font: 13px/22px Helvetica;
-}
+
+
+
+
 .buttons {
 	overflow: hidden;
 }
@@ -434,6 +435,20 @@ input[type="submit"]{
         -ms-transition: all .4s ease-in-out;
          -o-transition: all .4s ease-in-out;
             transition: all .4s ease-in-out;
+}
+.container1 {
+  height: 50px;
+  position: relative;
+  
+}
+
+.horizontal-center {
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
 }
 
 .btn-mid {
