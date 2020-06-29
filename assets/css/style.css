@@ -716,6 +716,14 @@ input[type="submit"]:hover,
   position: absolute;
 }
 
+centerbtn{
+  align-self: center;
+  align-content: center;
+  
+
+}
+
+
 .intro .overlay-itro {
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
