@@ -134,8 +134,15 @@ a:hover {
   font-weight: 600;
   color: #1e1e1e;
   font-size: 1.1rem;
+  font-family: roboto;
 }
+.title-y{
+  font-weight: 300;
+  color: black;
+  font-size: 1.1rem;
+  font-family: roboto;
 
+}
 /*--/ Title A /--*/
 .title-box {
   margin-bottom: 4rem;
@@ -571,7 +578,7 @@ input[type="submit"]:hover,
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: rgb(250, 250, 250);
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
@@ -582,7 +589,7 @@ input[type="submit"]:hover,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .navbar-b.navbar-reduce {
@@ -665,7 +672,7 @@ input[type="submit"]:hover,
 
 .navbar-toggler span {
   display: block;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   height: 3px;
   width: 25px;
   margin-top: 4px;
