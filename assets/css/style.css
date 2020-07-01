@@ -727,8 +727,7 @@ input[type="submit"]:hover,
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
-.intro { 
-  z-index: 124;
+.intro {
   height: 100vh;
   position: relative;
   color: #fff;
@@ -818,13 +817,6 @@ input[type="submit"]:hover,
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.back1 {
-  z-index: 123;
-  position: relative;
-  
-  display: inline;
-}
-
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
