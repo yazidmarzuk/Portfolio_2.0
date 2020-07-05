@@ -735,13 +735,15 @@ input[type="submit"]:hover,
   background-size:cover;
   background-position: center center;
 
-
 }
 
 .intro {
+  background: url(assets/img/bgmountain.png);
   height: 100vh;
-  position: relative;
-  color: #fff;
+  width: 100%;
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
 }
 
 .intro .intro-content {
