@@ -728,12 +728,13 @@ input[type="submit"]:hover,
 # Intro Section
 --------------------------------------------------------------*/
 .home-area{
-  background: urlurl(assets/img/bgmountain.png);
+  background: url(assets/img/bgmountain.png);
   height: 100vh;
   width: 100%;
-  -webkit-background-sizecover;
+  -webkit-background-size:cover;
   background-size:cover;
-  
+  background-position: center center;
+
 
 }
 
