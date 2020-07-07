@@ -619,12 +619,6 @@ a:hover {
 #preloader,.navigation_area{
   display:-webkit-box;
   display:-ms-flexbox
-}
-.preloaded .loader_line,.preloaded .loader_line:after{
-  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  opacity:0
-}
-
 
 #preloader{
   position:fixed;
