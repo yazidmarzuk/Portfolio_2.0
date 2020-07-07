@@ -615,32 +615,6 @@ a:hover {
 
 /*------/ Prelaoder /------*/
 
-
-#preloader,.navigation_area{
-  display:-webkit-box;
-  display:-ms-flexbox
-
-#preloader{
-  position:fixed;
-  left:0;
-  top:0;
-  height:100vh;
-  width:100%;
-  z-index:99999;
-  display:flex
-}
-#preloader:after,#preloader:before{
-  content:'';
-  position:absolute;
-  left:0;
-  top:0;
-  width:calc(50% + 1px);
-  height:100%;
-  z-index:-1;
-  background-color:#000;
-  -webkit-transition:all .3s ease 0s;
-  transition:all .3s ease 0s
-}
 #preloader:after{
   left:auto;
   right:0
