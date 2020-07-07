@@ -616,15 +616,6 @@ a:hover {
 /*------/ Prelaoder /------*/
 
 
-#preloader>.loader_line:before{
-  top:50%;
-  height:0%;
-  -webkit-transform:translateY(-50%);
-  transform:translateY(-50%);
-  background-color:#fff;
-  -webkit-animation:lineheight 1s ease-in-out 0s forwards;
-  animation:lineheight 1s ease-in-out 0s forwards
-}
 #preloader>.loader_line:after{
   top:0;
   height:100%;
