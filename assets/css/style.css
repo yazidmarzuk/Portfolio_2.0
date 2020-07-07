@@ -615,18 +615,6 @@ a:hover {
 
 /*------/ Prelaoder /------*/
 
-
-#preloader>.loader_line:after{
-  top:0;
-  height:100%;
-  background-color:#777;
-  -webkit-transform:translateY(-100%);
-  transform:translateY(-100%);
-  -webkit-animation:lineround 1.2s linear 0s infinite;
-  animation:lineround 1.2s linear 0s infinite;
-  -webkit-animation-delay:2s;
-  animation-delay:2s
-}
 @-webkit-keyframes lineheight{
   0%{
       height:0%
